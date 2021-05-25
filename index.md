@@ -8,6 +8,10 @@
 [![/images/js.gif](/images/js.gif)](/javascript)
 
 ---
+[PHP](/php)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
 [PHP](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
