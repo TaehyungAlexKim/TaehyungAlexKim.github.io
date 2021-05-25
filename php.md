@@ -15,15 +15,12 @@
 
 ### Demo / [Code](https://taehyungalexkim.github.io/Portfolio/pizza/20F_Lamp1-Pizza-Store.zip) / Document([Draft](https://taehyungalexkim.github.io/Portfolio/pizza/Draft_Design_Document.docx), [Final](https://taehyungalexkim.github.io/Portfolio/pizza/Final_Lamp_project.pptx))
 
+## 3. Employee Information
 
-# 3. Phonegap
+![https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png](https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png)
 
-## 3.1. Geolocation share page - google maps
+### Demo(https://lamp.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Lamp2Project)
 
-![https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/shot.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/shot.png)
-
-### Demo / [Code](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/NotAlone.zip) / Document([Final](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/Project_overview_with_video.pptx))
-This project was team project, but I did everything. I used Firebase Authentication and Cloud Storage and Google maps API.
 
 <!--## This can be your internal website page / project page
 
