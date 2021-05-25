@@ -5,7 +5,7 @@
 ### At Fanshawe College 
 
 [Javascript](/javascript)
-<img src="images/js.gif?raw=true"/>
+[/images/js.gif](/javascript)
 
 ---
 [PHP](/pdf/sample_presentation.pdf)
