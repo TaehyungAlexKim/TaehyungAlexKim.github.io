@@ -9,7 +9,7 @@
 
 ## 2. Online Pizza Store
 
-**Project description:** This project was team project, but I wrote every documents, and make login, user information, menu and admin pages. I used Bootstrap for CSS, and using multi-part forms for site structure.
+**Project description:** This project was team project, but I made back-end structure & wrote every documents & make login, user information, menu and admin pages. I used Bootstrap for CSS, and using multi-part forms for site structure.
 
 ![https://taehyungalexkim.github.io/Portfolio/pizza/ss.png](https://taehyungalexkim.github.io/Portfolio/pizza/ss.png)
 
