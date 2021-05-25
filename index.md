@@ -9,7 +9,7 @@
 
 ---
 [PHP](/php)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[![/Portfolio/lampproject/ss.png](/Portfolio/lampproject/ss.png)](/php)
 
 ---
 [Project 3 Title](http://example.com/)
