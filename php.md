@@ -1,4 +1,31 @@
-## This can be your internal website page / project page
+# PHP
+
+## 1. Basic function and Database
+![https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_1.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_1.png)
+
+![https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_2.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_2.png)
+
+### Demo / [Code](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/taehyungkim_project.zip)
+
+## 2. Online Pizza Store
+
+**Project description:** This project was team project, but I wrote every documents, and make login, user information, menu and admin pages. I used Bootstrap for CSS, and using multi-part forms for site structure.
+
+![https://taehyungalexkim.github.io/Portfolio/pizza/ss.png](https://taehyungalexkim.github.io/Portfolio/pizza/ss.png)
+
+### Demo / [Code](https://taehyungalexkim.github.io/Portfolio/pizza/20F_Lamp1-Pizza-Store.zip) / Document([Draft](https://taehyungalexkim.github.io/Portfolio/pizza/Draft_Design_Document.docx), [Final](https://taehyungalexkim.github.io/Portfolio/pizza/Final_Lamp_project.pptx))
+
+
+# 3. Phonegap
+
+## 3.1. Geolocation share page - google maps
+
+![https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/shot.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/shot.png)
+
+### Demo / [Code](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/NotAlone.zip) / Document([Final](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/phonegap/Project_overview_with_video.pptx))
+This project was team project, but I did everything. I used Firebase Authentication and Cloud Storage and Google maps API.
+
+<!--## This can be your internal website page / project page
 
 **Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -29,3 +56,4 @@ if (isAwesome){
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+-->
