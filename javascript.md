@@ -2,9 +2,9 @@
 
 ## 1.1. Vanilla JavaScript DVD online store
 
-![https://github.com/TaehyungAlexKim/Portfolio/blob/main/DVD/SS1.png](https://github.com/TaehyungAlexKim/Portfolio/blob/main/DVD/SS1.png)
+![https://taehyungalexkim.github.io/Portfolio/DVD/ss.png](https://taehyungalexkim.github.io/Portfolio/DVD/ss.png)
 
-### [Demo](https://taehyungalexkim.github.io/DVD/) / [Code](https://github.com/TaehyungAlexKim/Portfolio/blob/main/DVD/Taehyung_Final%20Project.zip)
+### [Demo](https://taehyungalexkim.github.io/Portfolio/DVD/) / [Code](https://taehyungalexkim.github.io/Portfolio/DVD/Taehyung_Final%20Project.zip)
 
 ## 1.2. Using public API and object - Astronomy Picture of the Day
 
