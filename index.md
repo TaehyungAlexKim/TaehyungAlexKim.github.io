@@ -4,7 +4,7 @@
 
 ### At Fanshawe College 
 
-[Javascript](/sample_page)
+[Javascript](/javascript)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
