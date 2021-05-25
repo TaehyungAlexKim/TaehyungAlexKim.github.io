@@ -1,13 +1,6 @@
 # PHP
 
-## 1. Basic function and Database
-![https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_1.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_1.png)
-
-![https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_2.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/project1_2.png)
-
-### Demo / [Code](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/php/taehyungkim_project.zip)
-
-## 2. Online Pizza Store
+## 1. Online Pizza Store
 
 **Project description:** This project was team project, but I made back-end structure & wrote every documents & make login, user information, menu and admin pages. I used Bootstrap for CSS, and using multi-part forms for site structure.
 
@@ -15,7 +8,7 @@
 
 ### Demo / [Code](https://taehyungalexkim.github.io/Portfolio/pizza/20F_Lamp1-Pizza-Store.zip) / Document([Draft](https://taehyungalexkim.github.io/Portfolio/pizza/Draft_Design_Document.docx), [Final](https://taehyungalexkim.github.io/Portfolio/pizza/Final_Lamp_project.pptx))
 
-## 3. Employee Information
+## 2. Employee Information
 
 ![https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png](https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png)
 
