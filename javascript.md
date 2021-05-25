@@ -1,16 +1,16 @@
 ## Javascript
 
-## 1.1. Vanilla JavaScript DVD online store
+## 1. Vanilla JavaScript DVD online store
 
 ![https://taehyungalexkim.github.io/Portfolio/DVD/ss.png](https://taehyungalexkim.github.io/Portfolio/DVD/ss.png)
 
 ### [Demo](https://taehyungalexkim.github.io/Portfolio/DVD/) / [Code](https://taehyungalexkim.github.io/Portfolio/DVD/Taehyung_Final%20Project.zip)
 
-## 1.2. Using public API and object - Astronomy Picture of the Day
+## 2. Using public API and object - Astronomy Picture of the Day
 
-![https://github.com/TaehyungAlexKim/Portfolio/blob/main/APIandOOP/ss.png](https://github.com/TaehyungAlexKim/Portfolio/blob/main/APIandOOP/ss.png)
+![https://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png](hhttps://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png)
 
-### [Demo](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/publicAPIandOOP/) / [Code](https://github.com/TaehyungAlexKim/Portfolio/blob/main/APIandOOP/Taehyung_S20_Project_01.zip)
+### [Demo](https://taehyungalexkim.github.io/Portfolio/APIandOOP/) / [Code](https://taehyungalexkim.github.io/Portfolio/APIandOOP/Taehyung_S20_Project_01.zip)
 
 ## 1.3. Using Class and object
 
