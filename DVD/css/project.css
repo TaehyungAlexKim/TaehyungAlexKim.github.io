@@ -1,0 +1,838 @@
+/* Global Set */
+
+body {
+    overflow-x: hidden;
+    background-image: url('../img/name.gif');
+    background-color: #bbb8b5;
+    background-size: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div[id=wrap] {
+    height: 100%;
+    margin: auto;
+    /* background - Random Code */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 10px 10px 30px #252527;
+    min-width: 310px;
+}
+
+nav {
+    background-color: #252527;
+    color: #bbb8b5;
+    padding: 10px 10px;
+    border: none;
+    font-size: large;
+    z-index: 1;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 7px #000;
+}
+
+
+/* For Mobile - Site Name */
+
+header[id=mobile-header] {
+    height: 60px;
+    background-color: #410a14;
+}
+
+h1[class="mobile-header"] {
+    clear: both;
+    margin: 5px 0 0 0;
+    color: #bbb8b5;
+    float: left;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 0 2px #410a14;
+    font-size: 20px;
+}
+
+
+/* For Mobile - Clock */
+
+span[id="clocktext-mobile"] {
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    color: #6d625c;
+    display: block;
+}
+
+
+/* For Desktop - Hidden Mobile Site Name, Clock and Show Desktop Name */
+
+header[id=desktop-header] {
+    display: none;
+}
+
+div[id="date"] {
+    display: none;
+}
+
+h3[id='header3-1'] {
+    display: none;
+}
+
+h3[id='header3-2'] {
+    display: none;
+}
+
+
+/* Movie Poster */
+
+#storeItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.posterdiv {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 430px;
+    background-size: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+#selectItem {
+    clear: both;
+}
+
+
+/* Movie Detail Information */
+
+
+/* For Movie detail on mobile site */
+
+.inner-name-div {
+    display: none;
+}
+
+.inner-mobile-name-div {
+    top: 0;
+    background-color: #410a14;
+    opacity: 0.9;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    pointer-events: none;
+    color: #bbb8b5;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: x-large;
+}
+
+.inner-mobile-detail-div {
+    margin: 0 0 0 0;
+    bottom: 0px;
+    background-color: #410a14;
+    width: 100%;
+    left: 0;
+    text-align: left;
+    font-size: large;
+    pointer-events: none;
+    position: absolute;
+    color: #bbb8b5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inner-info-div {
+    display: none;
+}
+
+
+/* Mini Subject Icon for Movie Information on Main page */
+
+span[id='minibanner'] {
+    background-color: #bbb8b5;
+    color: #252527;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    font-size: 14px;
+    margin: 5px 5px 0px 2px;
+    float: left;
+    opacity: 1;
+    clear: both;
+}
+
+
+/* The Detail-Popup page (background) */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 30px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* The Detail-Popup page (Content) */
+
+#modal-content {
+    background-color: #6d625c;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 95%;
+    max-width: 600px;
+}
+
+
+/*Inner Detail-Popup page */
+
+h1#movie-name {
+    text-align: center;
+    color: #252527;
+    margin: 0;
+}
+
+div[id='youtube'] {
+    margin: 0 0 5px 0;
+}
+
+p[id="movie-desc"] {
+    margin-top: 10px;
+    color: #252527;
+}
+
+
+/* Close Button On Detail-Popup */
+
+.close {
+    color: #410a14;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #272727;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#youtube {
+    float: left;
+    width: 100%;
+}
+
+
+/* Price, Cart Icon On Detail-Popup */
+
+.icon {
+    padding: 10px;
+    background: #410a14;
+    color: #bbb8b5;
+    min-width: 50px;
+    text-align: center;
+    border-width: 1px;
+    border-color: white;
+}
+
+
+/* Submit Icon On Cart */
+
+.icon-tax {
+    padding: 10px;
+    background: #410a14;
+    color: #bbb8b5;
+    min-width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* Cart submit button */
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: large;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+/* Movie Detail submit button */
+
+input[type=submit] {
+    background-color: #252527;
+    color: #fff;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(8, 4, 4);
+}
+
+
+/* Align Icons and Form in Movie Detail */
+
+i[id=price-icon] {
+    float: left;
+}
+
+i[id=cart-icon] {
+    float: left;
+}
+
+p[id=price] {
+    padding: 10px 10px 0 10px;
+    background-color: #bbb8b5;
+    height: 36px;
+    margin: 0 5px 0 0;
+    float: left;
+}
+
+p[id=review-err-msg] {
+    float: left;
+}
+
+input[id=movie-review-submit] {
+    float: right;
+    width: 20%;
+    min-height: 46px;
+}
+
+h2[id=movie-review-title] {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 0;
+    color: #252527;
+}
+
+#readMoreBtn {
+    background-color: #410a14;
+    color: #bbb8b5;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#readMoreBtn:hover {
+    background-color: #ed0b0e;
+}
+
+textarea[id=movie-review-textarea] {
+    width: 80%;
+    padding: 5px;
+    margin: 0 0 5px 0;
+    border: none;
+    background: #bbb8b5;
+    resize: none;
+    min-height: 40px;
+    float: left;
+    font-size: medium;
+}
+
+p[id="movie-review-content"] {
+    margin: 5px 0 0 0;
+    color: #252527;
+}
+
+textarea:focus[id=movie-review-textarea] {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Align Icons and Form in Cart */
+
+input[id=movie-cart-submit] {
+    float: left;
+    height: 36px;
+    width: 60px;
+}
+
+
+/* To open the cart form */
+
+.open-button {
+    background-color: #ed0b0e;
+    color: #252527;
+    padding: 16px 20px;
+    border-color: e3cdb3;
+    cursor: pointer;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 300px;
+    font-size: large;
+    box-shadow: 0 10px 30px #252527;
+}
+
+
+/* The popup cart */
+
+.cart-popup {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+/* Cart - form container */
+
+.form-container {
+    max-width: 550px;
+    padding: 10px;
+    background-color: #bbb8b5;
+}
+
+
+/* submit/Cancel button In cart */
+
+.form-container .btn {
+    background-color: #6d625c;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+td[id=adjust] {
+    padding: 14px 5px 14px 2px;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: #ed0b0e;
+}
+
+
+/* hover effects to buttons In Cart*/
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+
+/* Cart Table design */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #484e52;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 14px;
+    color: #111f28;
+}
+
+th {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+
+/* Design Price Detail Area */
+
+div[id=tax-area] {
+    text-align: right;
+}
+
+#upper-tax {
+    margin: 5px 2px 10px 0;
+}
+
+#lower-tax {
+    margin: 0 2px 5px 0;
+}
+
+.upper-detail,
+.lower-detail {
+    margin: 0 0 0 0;
+}
+
+input[class=cart-adjust] {
+    width: 35px;
+    height: 36px;
+    border: 0;
+    float: left;
+    font-size: larger;
+    background-color: #bbb8b5;
+    padding: 0 0 0 10px;
+}
+
+select {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12pt;
+}
+
+div[id="genre"] {
+    float: left;
+    margin: 0 10px 0 0;
+    left: 10px;
+}
+
+div[id="Currency"] {
+    float: left;
+    margin: 0 0 0 0;
+}
+
+#more {
+    display: none;
+}
+
+p[id=movie-review-content] {
+    clear: both;
+}
+
+footer {
+    background-color: #410a14;
+    color: #bbb8b5;
+    border: none;
+    z-index: 1;
+    /* overflow: hidden; */
+    height: 30px;
+    top: 0;
+    z-index: 0;
+    margin: 0 0 0 0;
+    padding-top: 6px;
+}
+
+p[id="contact"] {
+    width: 100%;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #cfc5bc;
+}
+
+
+/* For '+' '-' Action */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    height: auto;
+}
+
+.stepper {
+    border: 1px solid #eee;
+    /* display: inline-block; */
+    overflow: visible;
+    height: 36px;
+    background: #bbb8b5;
+    padding: 1px;
+    float: left;
+}
+
+.stepper input {
+    width: 3em;
+    height: 100%;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    color: #000;
+    font-size: larger;
+    float: left;
+}
+
+.stepper button {
+    width: 1.4em;
+    font-weight: 300;
+    height: 100%;
+    line-height: 0.1em;
+    font-size: 1.4em;
+    padding: 0.2em !important;
+    background: #eee;
+    color: #333;
+    border: none;
+    float: left;
+}
+
+div[id=price-div] {
+    margin-bottom: 5px;
+    height: 36px;
+}
+
+div[id=cart-qty-div] {
+    clear: both;
+}
+
+span[id=clocktext] {
+    font-size: medium;
+}
+
+td[id="no-msg"] {
+    text-align: center;
+}
+
+
+/* For desktop */
+
+@media only screen and (min-width: 768px) {
+    header[id=desktop-header] {
+        height: 450px;
+        margin: 0 0 10px 0;
+        background-color: transparent;
+        display: block;
+    }
+    header[id=mobile-header] {
+        display: none;
+    }
+    h3[id='header3-1'] {
+        margin: 50px 20px 0 0;
+        font-style: italic;
+        color: #bbb8b5;
+        clear: both;
+        text-shadow: 0 0 2px #410a14;
+        float: right;
+        text-align: right;
+        background-color: #252527;
+        display: inline-flex;
+    }
+    h3[id='header3-2'] {
+        margin: 0 20px 0 0;
+        font-style: italic;
+        color: #bbb8b5;
+        clear: both;
+        text-shadow: 0 0 2px #410a14;
+        float: right;
+        text-align: right;
+        background-color: #252527;
+        display: inline-flex;
+    }
+    .open-button {
+        right: 20px;
+        width: 320px;
+        bottom: 40px;
+    }
+    .cart-popup {
+        bottom: 40px;
+        right: 20px;
+    }
+    nav {
+        height: 50px;
+    }
+    div[id="date"] {
+        line-height: 16px;
+        float: right;
+        margin: 0 0 0 0;
+        display: block;
+    }
+    span[id="clocktext-mobile"] {
+        display: none;
+    }
+    #modal-content {
+        padding: 20px;
+    }
+    div[id=price-div] {
+        float: left;
+    }
+    div[id=cart-qty-div] {
+        float: left;
+        clear: none;
+    }
+    .inner-name-div {
+        top: 0;
+        background-color: #410a14;
+        opacity: 0.9;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        font-size: xx-large;
+        pointer-events: none;
+        color: #bbb8b5;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+    }
+    .inner-mobile-name-div {
+        display: none;
+    }
+    .inner-mobile-detail-div {
+        display: none;
+    }
+    .inner-info-div {
+        margin: 0 0 0 0;
+        bottom: 0px;
+        background-color: #410a14;
+        width: 100%;
+        left: 0;
+        text-align: left;
+        font-size: x-large;
+        pointer-events: none;
+        position: absolute;
+        color: #bbb8b5;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+    }
+    h1[class="desktop-header"] {
+        clear: both;
+        margin: 20px 0 0 20px;
+        color: #bbb8b5;
+        float: left;
+        /* text-align: center; */
+        width: 100%;
+        text-shadow: 0 0 2px #410a14;
+        font-size: 3.5vw;
+        /* text-shadow: 2px 2px 2px gray; */
+        height: 50px;
+    }
+}
+
+
+/* 1440 * 900 */
+
+@media only screen and (min-width: 1440px) and (min-height: 900px) {
+    header[id=desktop-header] {
+        height: 450px;
+    }
+    div[id=wrap] {
+        max-width: 1400px;
+    }
+}
+
+
+/* 1600 * 900 */
+
+@media only screen and (min-width: 1600px) and (min-height: 900px) {
+    header[id=desktop-header] {
+        height: 450px;
+    }
+    div[id=wrap] {
+        max-width: 1550px;
+    }
+}
+
+
+/* 1680 * 1050 */
+
+@media only screen and (min-width: 1680px) and (min-height: 1050px) {
+    header[id=desktop-header] {
+        height: 540px;
+    }
+    div[id=wrap] {
+        max-width: 1640px;
+    }
+}
+
+
+/* 1920 * 1080 */
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+    header[id=desktop-header] {
+        height: 600px;
+    }
+    div[id=wrap] {
+        max-width: 1900px;
+    }
+    h3[id='header3-1'] {
+        margin: 70px 20px 0 0;
+    }
+}
+
+
+/* 1920 * 1200 */
+
+@media only screen and (min-width: 1920px) and (min-height: 1200px) {
+    header[id=desktop-header] {
+        height: 660px;
+    }
+    div[id=wrap] {
+        max-width: 1900px;
+    }
+}
+
+
+/* 2560 * 1440 */
+
+@media only screen and (min-width: 2560px) and (min-height: 1440px) {
+    header[id=desktop-header] {
+        height: 900px;
+    }
+    div[id=wrap] {
+        max-width: 2520px;
+    }
+    h3[id='header3-1'] {
+        margin: 70px 20px 0 0;
+    }
+}
+
+
+/* 2560 * 1600 */
+
+@media only screen and (min-width: 2560px) and (min-height: 1600px) {
+    header[id=desktop-header] {
+        height: 1100px;
+    }
+    div[id=wrap] {
+        max-width: 2540px;
+    }
+    h3[id='header3-1'] {
+        margin: 120px 20px 0 0;
+    }
+}
+
+
+/* 4096 * 2160 */
+
+@media only screen and (min-width: 4096px) and (min-height: 2160px) {
+    header[id=desktop-header] {
+        height: 1050px;
+    }
+    div[id=wrap] {
+        max-width: 3500px;
+    }
+}

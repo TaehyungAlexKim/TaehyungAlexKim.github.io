@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Korea Movie DVD/Blue-ray</title>
+    <script src="js/project.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8" />
+    <meta name="description" content="Korea Movie and Drama DVD&Blue-ray Online Shop">
+    <meta name="keywords" content="Korea, Korean, Movie, Drama">
+    <meta name="author" content="Taehyung Kim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- Show only on Mobile Device -->
+        <header id=mobile-header>
+            <h1 class=mobile-header>Korea Movie & Drama DVD/Blue-Ray</h1><br>
+            <span id="clocktext-mobile" style="font-kerning: none;">12:48:07&nbsp;am</span>
+        </header>
+        <nav>
+            <!-- Select Area In Nav -->
+            <div id="genre">
+                <i class="fa fa-file-movie-o" style="font-size: 22px; vertical-align: middle;"></i>
+                <select id="displayFilter" onchange="showStoreItem()">
+                        <option>All</option>
+                    </select>
+            </div>
+            <div id="Currency">
+                <i class="fa fa-money" style="font-size: 22px;"></i>
+                <img id="currencyFlag" src="./img/flag/CAD.png" />
+                <select id="currencySelector" onchange="changeFlag()" style="width: 200;">
+                        <option selected value="CAD" >CAD</option>
+                        <option value="USD" >USD</option>
+                        <option value="GBP" >GBP</option>
+                        <option value="KRW" >KRW</option>
+                    </select>
+            </div>
+            <!-- Show only on Desktop -->
+            <div id="date">
+                <span id="clocktext" style="font-kerning: none;">12:48:07&nbsp;am</span>
+            </div>
+
+        </nav>
+        <!-- Show only on Desktop -->
+        <header id=desktop-header>
+            <h1 class=desktop-header>Korea Movie & Drama DVD/Blue-Ray</h1><br>
+            <h3 id=header3-1>"Once you overcome the one-inch tall barrier of subtitles, you will be introduced to so many more amazing films."</h3>
+            <h3 id=header3-2> - Bong Joon Ho, Oscar Awards Winner for Best Picture</h3>
+        </header>
+
+        <!-- Poster List -->
+        <div id="storeItem"></div>
+
+
+        <!-- Movie Detail Popup -->
+        <div id="myModal" class="modal">
+
+            <!-- Popup content -->
+            <div id="modal-content" class="popup">
+                <span class="close">&times;</span>
+                <div id="youtube">
+
+                    <div style="position: relative; height:0; padding-bottom: 56.25%;">
+                        <iframe id="trailer" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; width:100%; height:100%;"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <br>
+        <!-- Cart Area -->
+        <button class="open-button" onclick="openForm()" id="cart-button">Your Cart(0)</button>
+
+        <div class="cart-popup" id="cart-form">
+            <form action="#" class="form-container">
+                <div id="cart-head-line">
+                    <h1 style="display: inline;" id="cart-header">Your Cart(0)</h1>
+                    <p id="cart-err-msg" style="display: inline;"></p>
+                </div>
+                <div id="cart-area">
+                    <table id="cart-table">
+                        <tr>
+                            <th>(ID)Name<br>Price</th>
+                            <th>Qty</th>
+                            <th>Shipping</th>
+                            <th>Adjust</th>
+                        </tr>
+                        <tr class="cart-table-content-tr">
+                            <td colspan="4" id="no-msg">
+                                No Items in Cart
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="tax-area">
+                    <div id="upper-tax">
+                        <p id="notice" class="upper-detail" style="color: darkred;font-weight: bold;">If you want remove item, set adjust 'Zero'</p>
+                        <p id="subtotal-item" class="upper-detail">Items Subtotal: $0</p>
+                        <p id="subtotal-shipping" class="upper-detail">Estimated Shipping: $0</p>
+                    </div>
+                    <div id="lower-tax">
+                        <p id="subtotal-item-and-shipping" class="lower-detail">Subtotal: $0</p>
+                        <p id="subtotal-tax" class="lower-detail">Estimated Tax: $0</p>
+                        <p id="subtotal-total" class="lower-detail">Order Total: $0</p>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn" id="cart-check-out">Check out($0)</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+
+        <footer>
+            <p id="contact"><a href="mailto:t_kim112820@fanshaweonline.ca">© Taehyung Kim </a></p>
+        </footer>
+    </div>
+
+</body>
+<script>
+    var elt = document.getElementById("dateArea");
+    var selectBox = document.getElementById("displayFilter");
+
+    var displayItem = document.getElementById("storeItem");
+    var selectedCurrency = document.getElementById("currencySelector");
+
+    var priceSubTotalItem = document.getElementById("subtotal-item");
+    var priceSubTotalShipping = document.getElementById("subtotal-shipping");
+    var priceSubTotal = document.getElementById("subtotal-item-and-shipping");
+    var priceSubTotalTax = document.getElementById("subtotal-tax");
+    var priceTotal = document.getElementById("subtotal-total");
+
+
+    var flagImg = document.getElementById("currencyFlag"); // Flag
+    var cartHeader = document.getElementById("cart-header");
+    var cartCheckOut = document.getElementById("cart-check-out");
+    var cartButton = document.getElementById("cart-button");
+
+    // clock
+    var textElem = document.getElementById("clocktext");
+    var textElemMobile = document.getElementById("clocktext-mobile");
+    var targetWidth = 0.9;
+    var curFontSize = 20;
+
+    initialize();
+</script>
+
+</html>

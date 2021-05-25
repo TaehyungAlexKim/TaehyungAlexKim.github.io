@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+    <title>Taehyung Kim OOP Project2</title>
+    <script src="project_v2.js"></script>
+</head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <div class="row">
+            <div class="col-sm">
+                <div id="outline" style="border: 1px solid; margin: 10px 10px 10px 10px;">
+                    <h4>Video Device</h4>
+                    <div id="video_window"
+                        style="border: 1px solid; margin: 10px 10px 10px 10px; padding: 10px 10px 10px 10px; height: 500px;">
+                        <form id="videoForm" style="text-align: left;">
+                            HTML Controls showing all Video Device properties
+                        </form>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" id="videoForm-progress" role="progressbar" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="clearfix" id="button_area" style="margin: 10px 10px 10px 10px;">
+                        <button type="button" class="btn btn-secondary" style="float: left; width: 45%;"
+                            id="video-previous">
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-secondary" style="float: right; width: 45%;"
+                            id="video-next">
+                            Next
+                        </button>
+                        <br /><br />
+                        <button type="button" class="btn btn-secondary" style="float: left; width: 45%;" id="new-video">
+                            New
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="videoForm-insert"
+                            style="float: right; width: 45%;">
+                            Update
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div id="outline" style="border: 1px solid; margin: 10px 10px 10px 10px;">
+                    <h4>Hard Disk</h4>
+                    <div id="hdd_window"
+                        style="border: 1px solid; margin: 10px 10px 10px 10px; padding: 10px 10px 10px 10px; height: 500px;">
+                        <form id="hddForm" style="text-align: left;">
+                            HTML Controls showing all Hard Disk properties
+                        </form>
+                    </div>
+                    <div class="progress" id="hddFrom-progress">
+                        <div class="progress-bar" id="hddForm-progress" role="progressbar" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="clearfix" id="button_area" style="margin: 10px 10px 10px 10px;">
+                        <button type="button" class="btn btn-secondary" style="float: left; width: 45%;"
+                            id="hdd-previous">
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-secondary" style="float: right; width: 45%;" id="hdd-next">
+                            Next
+                        </button>
+                        <br /><br />
+                        <button type="button" class="btn btn-secondary" style="float: left; width: 45%;" id="new-hdd">
+                            New
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="hddForm-insert"
+                            style="float: right; width: 45%;">
+                            Update
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div id="outline" style="border: 1px solid; margin: 10px 10px 10px 10px;">
+                    <h4>SSD</h4>
+                    <div id="ssd_window"
+                        style="border: 1px solid; margin: 10px 10px 10px 10px; padding: 10px 10px 10px 10px; height: 500px;">
+                        <form id="ssdForm" style="text-align: left;">
+                            HTML Controls showing all SSD properties
+                        </form>
+                    </div>
+                    <div class="progress" id="ssdFrom-progress">
+                        <div class="progress-bar" id="ssdForm-progress" role="progressbar" aria-valuenow="0"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="clearfix" id="button_area" style="margin: 10px 10px 10px 10px;">
+                        <button type="button" class="btn btn-secondary" style="float: left; width: 45%;"
+                            id="ssd-previous">
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-secondary" style="float: right; width: 45%;" id="ssd-next">
+                            Next
+                        </button>
+                        <br /><br />
+                        <button type="button" class="btn btn-secondary" style="float: left; width: 45%;" id="new-ssd">
+                            New
+                        </button>
+                        <button type="button" class="btn btn-secondary" id="ssdForm-insert"
+                            style="float: right; width: 45%;">
+                            Update
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script>buttonAction();</script>
+</body>
+
+</html>

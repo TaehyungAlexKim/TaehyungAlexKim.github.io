@@ -1,0 +1,3 @@
+1. Header Baacground Images : Movie Information DB from "https://www.data.go.kr/main.do;jsessionid=yy-kXoV3w-0tzDicnTvHjsKn.node20?lang=en" ( Korea Public Data Portal)
+2. Movie Poster Images : https://www.imdb.com/
+3. Flag Images : Emoji from Apple

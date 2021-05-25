@@ -1,0 +1,318 @@
+<!-- Reference -->
+<!-- Date Range Picker: https://tempusdominus.github.io/bootstrap-4/Usage/#linked-pickers -->
+<!-- CSS: bootstrap4 -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- For Date Range Picker -->
+    <!-- Date Range Picker: https://tempusdominus.github.io/bootstrap-4/Usage/#linked-pickers -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
+    <title>Taehyung OOP Project01</title>
+</head>
+
+<body>
+    <!-- Form code begins -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-md">
+            <h1 class="display-4">Astronomy Picture of the Day</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="input-group date" id="datetimepicker7" data-target-input="nearest">
+                        <h4><span class="badge badge-secondary">From</span></h4>
+                        <input type="text" id="from_date" class="form-control datetimepicker-input" data-target="#datetimepicker7" />
+                        <div class="input-group-append" data-target="#datetimepicker7" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group date" id="datetimepicker8" data-target-input="nearest">
+                        <h4><span class="badge badge-secondary">To</span></h4>
+                        <input type="text" id="to_date" class="form-control datetimepicker-input" data-target="#datetimepicker8" />
+                        <div class="input-group-append" data-target="#datetimepicker8" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-secondary btn-block" onclick="helper()" id="getdata">Get Data</button>
+                </div>
+                <div class="col-md-4">
+                    <select class="custom-select" id="selectBox" onchange="selectedTitle()">
+                    <option selected>Please select...</option>
+
+                  </select>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12" id="progress-div" style="display:none">
+                    <div class="progress">
+                        <div class="progress-bar" id="progress" style="width:0%"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col border bg-light">
+                    <div style="text-align: center;">
+                        <h3 id="title">Title</h3>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col border bg-light">
+                    <embed id="embed" style="display: block; margin-left: auto; margin-right: auto;max-width:100%">
+                </div>
+                <div class="w-100"></div>
+                <div class="col border bg-light">
+                    <div>
+                        <p id="desc" class="text-left">desc</p>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col border bg-light">
+                    <div>
+                        <p class="text-center" id="copyright"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- for date range picker -->
+    <!-- Date Range Picker: https://tempusdominus.github.io/bootstrap-4/Usage/#linked-pickers -->
+    <script type="text/javascript">
+        //For Calendars Link
+        $(function() {
+            $('#datetimepicker7').datetimepicker({
+                format: 'DD-MM-YYYY',
+                maxDate: moment(),
+                useCurrent: true
+            });
+            $('#datetimepicker8').datetimepicker({
+                useCurrent: true,
+                format: 'DD-MM-YYYY',
+                maxDate: moment(),
+            });
+            $("#datetimepicker7").on("change.datetimepicker", function(e) {
+                $('#datetimepicker8').datetimepicker('minDate', e.date);
+            });
+            $("#datetimepicker8").on("change.datetimepicker", function(e) {
+                $('#datetimepicker7').datetimepicker('maxDate', e.date);
+            });
+        });
+    </script>
+
+    <script>
+        var dataLists = []; // From API.
+        var listDate = []; // Date list between From and To
+        var tmpindex = 0;
+
+        //define DataList async ajax call function
+        function getPicListAsync(url) {
+            dataLists.length = 0;
+            var titleSelectBox = document.getElementById("selectBox");
+            var tempOption = document.createElement("option");
+            titleSelectBox.innerHTML = "";
+
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                    //check if is finish and everything is OK
+                    if (request.readyState === 4 && request.status === 200) {
+                        var jsonString = JSON.parse(request.responseText);
+                        // Parsing to Array
+                        dataLists.push(JSON.parse(request.responseText));
+                        // Insert Select Box
+                        tempOption.innerText = jsonString.title;
+                        titleSelectBox.appendChild(tempOption);
+
+                        //progress bar
+                        document.getElementById("progress").style.width = (dataLists.length / listDate.length) * 100 + "%";
+                        //console.log((dataLists.length / listDate.length) * 100);
+
+                        if (dataLists.length == listDate.length) {
+                            // Button, selectbox activate
+                            document.getElementById("getdata").removeChild(document.getElementById("getdata").firstChild);
+                            document.getElementById("getdata").innerHTML = "Get Data";
+
+                            document.getElementById("getdata").disabled = false;
+                            document.getElementById("selectBox").disabled = false;
+
+                            //Progress hidden
+                            document.getElementById("progress-div").style.display = "none";
+                            document.getElementById("progress").style.width = 0 + "%";
+
+                        }
+                    } else {
+                        //If an error message is sent from the server
+                        setTimeout(function() { // Button, selectbox activate
+                            document.getElementById("getdata").removeChild(document.getElementById("getdata").firstChild);
+                            document.getElementById("getdata").innerHTML = "Get Data";
+
+                            document.getElementById("getdata").disabled = false;
+                            document.getElementById("selectBox").disabled = false;
+
+                            //Progress hidden
+                            document.getElementById("progress-div").style.display = "none";
+                            document.getElementById("progress").style.width = 0 + "%";
+                        }, 2000); // waiting max 2 second
+
+                    }
+
+                }
+                //Open a conection using URL
+            request.open("GET", url);
+
+            //Send the GET request
+            request.send();
+        }
+
+        function showDate() {
+            document.getElementById("copyright").innerHTML = "Copyright: " + checkundefined(dataLists[tmpindex].copyright);
+            document.getElementById("title").innerHTML = dataLists[tmpindex].title;
+            // Title Name
+            document.getElementById("desc").innerHTML = dataLists[tmpindex].explanation;
+            // Img Path
+            document.getElementById("embed").innerHTML = "";
+            document.getElementById("embed").removeAttribute("src");
+            document.getElementById("embed").removeAttribute("type");
+
+            // define media type
+            if (dataLists[tmpindex].media_type == "image") {
+                document.getElementById("embed").type = "image/jpg";
+                document.getElementById("embed").src = dataLists[tmpindex].url;
+                //Img alt
+                document.getElementById("embed").alt = checkundefined(dataLists[tmpindex].title) + ' image';
+
+            } else if (dataLists[tmpindex].media_type == "video") {
+                document.getElementById("embed").type = "video/webm";
+                document.getElementById("embed").setAttribute("src", dataLists[tmpindex].url + "?enablejsapi=1&version=3&playerapiid=ytplayer")
+                    //Video alt
+                document.getElementById("embed").alt = checkundefined(dataLists[tmpindex].title) + ' Video';
+
+            }
+
+        }
+
+        function helper() {
+            //check validation
+            //from date null
+            var fromDate = toDatefromString(document.getElementById("from_date").value);
+            if (fromDate == "Invalid Date") {
+                alert("Please select the From date");
+                return;
+            }
+            //to date null
+            var toDate = toDatefromString(document.getElementById("to_date").value);
+            if (toDate == "Invalid Date") {
+                alert("Please select the To date");
+                return;
+            }
+
+            //maximum 30days check
+            if (timeDiff(fromDate, toDate) > 30) {
+                alert("You must select a range of date within 30 days.");
+                return;
+            }
+            // make Date list array
+            getDateRange(fromDate.yyyymmdd(), toDate.yyyymmdd(), listDate);
+
+            // Button, Selectbox Disable
+            document.getElementById("getdata").innerHTML = " Loading...";
+            var spinner = document.createElement("span");
+            spinner.setAttribute("class", "spinner-border spinner-border-sm");
+            document.getElementById("getdata").prepend(spinner);
+
+            document.getElementById("getdata").disabled = true;
+            document.getElementById("selectBox").disabled = true;
+
+            document.getElementById("progress-div").style.display = "block";
+            //console.log(listDate);
+            var url = "";
+
+            // call API
+            for (var i = 0; i < listDate.length; i++) {
+                url = "https://api.nasa.gov/planetary/apod?api_key=W4AkVu0E5DdycJj1dWBC3E8p6Tr2BkVXcmLlih7I&date=" + listDate[i];
+                getPicListAsync(url);
+
+            }
+            //input the title in selectbox
+            var titleSelectBox = document.getElementById("selectBox");
+            var tempOption = document.createElement("option");
+            tempOption.innerHTML = "Please select...";
+            titleSelectBox.appendChild(tempOption);
+        }
+
+        //change type of date
+        function toDatefromString(string) {
+            var parts = string.split('-');
+            return date = new Date(parts[2], parts[1] - 1, parts[0]);
+        }
+
+        // how much different between From and To
+        function timeDiff(_fromDate, _toDate) {
+            return date = (_toDate - _fromDate) / (1000 * 60 * 60 * 24);
+        }
+
+        // convert yyyy-mm-dd
+        Date.prototype.yyyymmdd = function() {
+            var mm = this.getMonth() + 1; // getMonth() is zero-based
+            var dd = this.getDate();
+
+            return [this.getFullYear(),
+                (mm > 9 ? '' : '0') + mm,
+                (dd > 9 ? '' : '0') + dd
+            ].join('-');
+        };
+
+        // check undefined
+        const checkundefined = (value) => {
+            if (typeof value === 'undefined') return "unknown"
+            return value
+        }
+
+        // Calculate Date Different and store in array date between From and To
+        function getDateRange(startDate, endDate, listDate) {
+            listDate.length = 0;
+            var dateMove = new Date(startDate);
+            var strDate = startDate;
+            if (startDate == endDate) {
+                var strDate = dateMove.toISOString().slice(0, 10);
+                listDate.push(strDate);
+            } else {
+                while (strDate < endDate) {
+                    var strDate = dateMove.toISOString().slice(0, 10);
+                    listDate.push(strDate);
+                    dateMove.setDate(dateMove.getDate() + 1);
+                }
+            }
+            return listDate;
+        }
+
+
+        function selectedTitle() {
+            // Find index using title
+            tmpindex = dataLists.findIndex(obj => obj.title == document.getElementById("selectBox").value);
+            //console.log(tmpindex);
+            showDate();
+        }
+    </script>
+</body>
+
+</html>

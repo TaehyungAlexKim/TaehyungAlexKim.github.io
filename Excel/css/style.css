@@ -1,0 +1,39 @@
+body {
+  background-color: #bfc9dc;
+}
+
+.Buttons {
+  position: absolute;
+  height: 25px;
+  font-family: Arial, Helvetica;
+  font-size: 11pt;
+  color: #002594;
+}
+
+.LblInfoGray {
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 10pt;
+  color: #5a5a5a;
+  position: relative;
+  text-align: left;
+  padding-top: 4px;
+}
+
+.TableClass {
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 9pt;
+}
+th {
+  text-align: center !important;
+}
+
+.BaseColumn {
+  text-align: center !important;
+}
+
+.AlphaColumn {
+  width: 40px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #8a8b8d;
+}
