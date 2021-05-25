@@ -19,7 +19,7 @@
 
 ![https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png](https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png)
 
-### Demo(https://lamp.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Lamp2Project)
+### [Demo](https://lamp.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Lamp2Project)
 
 
 <!--## This can be your internal website page / project page
