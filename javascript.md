@@ -8,7 +8,7 @@
 
 ## 2. Using public API and object - Astronomy Picture of the Day
 
-![https://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png](hhttps://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png)
+![https://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png](https://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png)
 
 ### [Demo](https://taehyungalexkim.github.io/Portfolio/APIandOOP/) / [Code](https://taehyungalexkim.github.io/Portfolio/APIandOOP/Taehyung_S20_Project_01.zip)
 
