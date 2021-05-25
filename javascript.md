@@ -12,11 +12,11 @@
 
 ### [Demo](https://taehyungalexkim.github.io/Portfolio/APIandOOP/) / [Code](https://taehyungalexkim.github.io/Portfolio/APIandOOP/Taehyung_S20_Project_01.zip)
 
-## 1.3. Using Class and object
+## 3. Using Class and object
 
-![https://taehyungalexkim.mycafe24.com/project/IWD1/20S/devicetree/tree.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/devicetree/tree.png)
+![https://taehyungalexkim.github.io/Portfolio/devicetree/ss.png](https://taehyungalexkim.github.io/Portfolio/devicetree/ss.png)
 
-### [Instruction](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/devicetree/Project2_Device_Tree_Summer_2020.pdf) / [Demo](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/devicetree/Taehyung_Project2.html) / [Code](https://taehyungalexkim.mycafe24.com/project/IWD1/20S/devicetree/Project02.zip)
+### [Instruction](https://taehyungalexkim.github.io/Portfolio/devicetree/Project2_Device_Tree_Summer_2020.pdf) / [Demo](https://taehyungalexkim.github.io/Portfolio/devicetree/Taehyung_Project2.html) / [Code](https://taehyungalexkim.github.io/Portfolio/devicetree/Project02.zip)
 
 ## 1.4. Excel sheet - 2D array, iterator
 ![https://taehyungalexkim.mycafe24.com/project/IWD1/20F/project1/excel.png](https://taehyungalexkim.mycafe24.com/project/IWD1/20F/project1/excel.png)
