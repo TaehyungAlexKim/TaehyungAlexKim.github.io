@@ -2,13 +2,13 @@
 
 ---
 
-### Category Name 1 
+### At Fanshawe College 
 
-[Project 1 Title](/sample_page)
+[Javascript](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[PHP](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
