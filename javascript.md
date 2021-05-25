@@ -1,4 +1,4 @@
-## Javascript
+# Javascript
 
 ## 1. Vanilla JavaScript DVD online store
 
