@@ -26,6 +26,17 @@
 *	Instructed and provided technical advice to junior staff members and clients.
 
 ---
+### 3. Hyundai Kefico’s MES Advancement Project in Vietnam
+**Period:** Apr. 2017 – Sept. 2017
+
+**Amount:** 200 million won
+
+**Project Tasks:** 
+
+*	Development of a program to digitize various attached documents and reports.
+*	Effectively served as a project leader, heading the database design, interface design, and document authentication system. 
+
+---
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
