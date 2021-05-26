@@ -4,7 +4,8 @@
 
 ### At Business
 
-- [MES - Manufacturing execution system ](/acs)
+[MES - Manufacturing execution system ](/acs)
+[![/images/acs_tile.png](/images/acs_tile.png)](/acs)
 
 ---
 
