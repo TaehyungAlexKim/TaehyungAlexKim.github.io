@@ -1,14 +1,17 @@
-# MES / Manufacturing Execution System Project
+# MES   Manufacturing Execution System Project
 
 ## 1. Amore Pacific’s WMS System Development Project
 **Period** Jan. 2018 – Sept. 2018
+
 **Amount** 900 million won
+
 **Project Tasks:** 
+```
 * Took charge of deploying automated warehouse solutions of KNAPP, a global company that specializes in automated storage, to Amore Pacific. 
 * Served as a project leader, improving the existing logistics process to fit the new system and headed the development of PDA programs. 
 * Handled interface design between ERP and WMS software.
 * Instructed and provided technical advice to junior staff members and clients. 
-
+```
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
