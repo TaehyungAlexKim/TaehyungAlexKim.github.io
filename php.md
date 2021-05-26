@@ -4,13 +4,13 @@
 
 **Project description:** This project was team project, but I made back-end structure & wrote every documents & make login, user information, menu and admin pages. I used Bootstrap for CSS, and using multi-part forms for site structure.
 
-![https://taehyungalexkim.github.io/Portfolio/pizza/ss.png](https://taehyungalexkim.github.io/Portfolio/pizza/ss.png)
+![/Portfolio/pizza/ss.png](/Portfolio/pizza/ss.png)
 
-### Demo / [Code](https://taehyungalexkim.github.io/Portfolio/pizza/20F_Lamp1-Pizza-Store.zip) / Document([Draft](https://taehyungalexkim.github.io/Portfolio/pizza/Draft_Design_Document.docx), [Final](https://taehyungalexkim.github.io/Portfolio/pizza/Final_Lamp_project.pptx))
+### Demo / [Code](/Portfolio/pizza/20F_Lamp1-Pizza-Store.zip) / Document([Draft](/Portfolio/pizza/Draft_Design_Document.docx), [Final](/Portfolio/pizza/Final_Lamp_project.pptx))
 
 ## 2. Employee Information
 
-![https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png](https://taehyungalexkim.github.io/Portfolio/lampproject/ss.png)
+![/Portfolio/lampproject/ss.png](/Portfolio/lampproject/ss.png)
 
 ### [Demo](https://lamp.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Lamp2Project)
 
