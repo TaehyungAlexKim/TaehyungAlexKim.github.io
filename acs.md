@@ -37,6 +37,7 @@
 *	Effectively served as a project leader, heading the database design, interface design, and document authentication system. 
 
 <img src="images/keficomobile.jpg?raw=true"/>
+
 ---
 ### 4. Namyang Nexmo’s MES System Development Project in Poland
 **Period:** Sept. 2016 – Mar. 2017
@@ -51,6 +52,7 @@
 *	PDA in Polish and English version. 
 
 <img src="images/NYPDA.png?raw=true"/>
+
 ---
 ### 5. BMI’s New Vehicle Model Tracking Management System Project
 **Period:** Aug. 2016
@@ -83,6 +85,7 @@
 *	Headed all phases of logistics process design, PDA development, ERP-MES interface program development, and others.  
 
 <img src="images/NYppt.png?raw=true"/>
+
 ---
 ### 8. Hyundai Powertech’s All Plants CPMS Improvement Project
 **Period:** Dec. 2014 – Apr. 2015
