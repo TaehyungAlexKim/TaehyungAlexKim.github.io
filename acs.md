@@ -1,4 +1,5 @@
-# MES<br>Manufacturing Execution System Project
+# MES
+## Manufacturing Execution System Project
 ---
 ### 1. Amore Pacific’s WMS System Development Project
 **Period:** Jan. 2018 – Sept. 2018
@@ -12,7 +13,7 @@
 * Handled interface design between ERP and WMS software.
 * Instructed and provided technical advice to junior staff members and clients. 
 
-
+---
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
