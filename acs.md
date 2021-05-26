@@ -37,6 +37,73 @@
 *	Effectively served as a project leader, heading the database design, interface design, and document authentication system. 
 
 ---
+### 4. Namyang Nexmo’s MES System Development Project in Poland
+**Period:** Sept. 2016 – Mar. 2017
+
+**Amount:** 800 million won
+
+**Project Tasks:** 
+
+*	Development of MES system for a factory in Poland of Namyang Nexmo, a major subcontractor of Hyundai and Kia Motors. 
+*	Managed various duties as the main program developer, including all phases of the logistics process from warehousing and shipment of parts to returns, processing, and final delivery and development of software. 
+*	Took charge of the design and development of data interlink between Korea and Poland.
+*	PDA in Polish and English version. 
+
+---
+### 5. BMI’s New Vehicle Model Tracking Management System Project
+**Period:** Aug. 2016
+
+**Amount:** 100 million won
+
+**Project Tasks:** 
+
+*	Headed the task of linking BMI databases in conjunction with Hyundai/Kia Motors systems when new vehicle models are added.
+*	Spearheaded the development of the Zebra barcode system.
+
+---
+### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China
+**Period:** Jul. 2016
+
+**Amount:** 100 million won
+
+**Project Tasks:** 
+
+*	Headed barcode system development, PDA development, and others. 
+
+---
+### 7. Namyang Nexmo’s MES System Development Project in Korea
+**Period:** Aug. 2015 – Mar. 2016
+
+**Amount:** 900 million won
+
+**Project Tasks:** 
+
+*	Headed all phases of logistics process design, PDA development, ERP-MES interface program development, and others.  
+
+---
+### 8. Hyundai Powertech’s All Plants CPMS Improvement Project
+**Period:** Dec. 2014 – Apr. 2015
+
+**Amount:** 500 million won
+
+**Project Tasks:** 
+
+*	Headed the conversion of existing web-based MES system to C# based. 
+*	Served as a main program developer designing and developing the program's entire frame and conversion of Oracle databases to MSSQL. 
+
+---
+### 9. Pulmuone’s Raw Noodle Plant POP Development Project
+**Period:** Sept. 2014 – Nov. 2014
+
+**Amount:** 100 million won
+
+**Project Tasks:** 
+
+*	Development of a POP system for a raw noodle production line. 
+*	Served as a main program developer developing touch-type terminal system. 
+*	Design of production process from flour to noodle.  
+
+---
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
