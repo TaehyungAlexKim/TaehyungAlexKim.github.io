@@ -16,7 +16,7 @@
 
 ## 3. Rental Buddy: for Landlord and Tenant
 
-![https://taehyungalexkim.github.io/Portfolio/Application-Project-Rental-Buddy/ss.png](https://taehyungalexkim.github.io/Portfolio/Application-Project-Rental-Buddy/ss.png)
+![/Portfolio/rental/ss.png](/Portfolio/rental/ss.png)
 
 ### [Demo](https://rental.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Application-Project-Rental-Buddy)
 
