@@ -14,6 +14,11 @@
 
 ### [Demo](https://lamp.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Lamp2Project)
 
+## 3. Rental Buddy: for Landlord and Tenant
+
+![/Portfolio/Application-Project-Rental-Buddy/ss.png](/Portfolio/Application-Project-Rental-Buddy/ss.png)
+
+### [Demo](https://rental.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Application-Project-Rental-Buddy)
 
 <!--## This can be your internal website page / project page
 
