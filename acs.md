@@ -1,7 +1,8 @@
 # MES
 ## Manufacturing Execution System Project
 ---
-### 1. Amore Pacific’s WMS System Development Project :kr:
+<img src="images/kr.png?raw=true"/>
+### 1. Amore Pacific’s WMS System Development Project 
 **Period:** Jan. 2018 – Sept. 2018
 
 **Amount:** 900 million won
