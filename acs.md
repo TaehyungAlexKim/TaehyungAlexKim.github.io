@@ -1,7 +1,7 @@
 # MES
 ## Manufacturing Execution System Project
 ---
-### 1. Amore Pacific’s WMS System Development Project
+### 1. Amore Pacific’s WMS System Development Project :kr:
 **Period:** Jan. 2018 – Sept. 2018
 
 **Amount:** 900 million won
@@ -14,7 +14,7 @@
 * Instructed and provided technical advice to junior staff members and clients. 
 
 ---
-### 2. Kyung Dong Navien’s Smart Factory Project
+### 2. Kyung Dong Navien’s Smart Factory Project :kr:
 **Period:** Sept. 2017 – Dec. 2017
 
 **Amount:** 100 million won
@@ -54,7 +54,7 @@
 <img src="images/NYPDA.png?raw=true"/>
 
 ---
-### 5. BMI’s New Vehicle Model Tracking Management System Project
+### 5. BMI’s New Vehicle Model Tracking Management System Project :kr:
 **Period:** Aug. 2016
 
 **Amount:** 100 million won
@@ -65,7 +65,7 @@
 *	Spearheaded the development of the Zebra barcode system.
 
 ---
-### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China
+### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China :kr:
 **Period:** Jul. 2016
 
 **Amount:** 100 million won
@@ -75,7 +75,7 @@
 *	Headed barcode system development, PDA development, and others. 
 
 ---
-### 7. Namyang Nexmo’s MES System Development Project in Korea
+### 7. Namyang Nexmo’s MES System Development Project in Korea :kr:
 **Period:** Aug. 2015 – Mar. 2016
 
 **Amount:** 900 million won
@@ -87,7 +87,7 @@
 <img src="images/NYppt.png?raw=true"/>
 
 ---
-### 8. Hyundai Powertech’s All Plants CPMS Improvement Project
+### 8. Hyundai Powertech’s All Plants CPMS Improvement Project :kr:
 **Period:** Dec. 2014 – Apr. 2015
 
 **Amount:** 500 million won
@@ -98,7 +98,7 @@
 *	Served as a main program developer designing and developing the program's entire frame and conversion of Oracle databases to MSSQL. 
 
 ---
-### 9. Pulmuone’s Raw Noodle Plant POP Development Project
+### 9. Pulmuone’s Raw Noodle Plant POP Development Project :kr:
 **Period:** Sept. 2014 – Nov. 2014
 
 **Amount:** 100 million won
