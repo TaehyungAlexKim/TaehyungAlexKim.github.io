@@ -12,12 +12,8 @@
 [![/Portfolio/lampproject/ss.png](/Portfolio/lampproject/ss.png)](/php)
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-
-### Category Name 2
+### At Business
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
