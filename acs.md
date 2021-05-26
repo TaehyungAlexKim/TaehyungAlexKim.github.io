@@ -15,7 +15,7 @@
 * Instructed and provided technical advice to junior staff members and clients. 
 
 ---
-### 2. Kyung Dong Navien’s Smart Factory Project :kr:
+### 2. Kyung Dong Navien’s Smart Factory Project <img src="images/kr.png?raw=true"/>
 **Period:** Sept. 2017 – Dec. 2017
 
 **Amount:** 100 million won
@@ -27,7 +27,7 @@
 *	Instructed and provided technical advice to junior staff members and clients.
 
 ---
-### 3. Hyundai Kefico’s MES Advancement Project in Vietnam :vietnam:
+### 3. Hyundai Kefico’s MES Advancement Project in Vietnam <img src="images/vn.png?raw=true"/>
 **Period:** Apr. 2017 – Sept. 2017
 
 **Amount:** 200 million won
@@ -40,7 +40,7 @@
 <img src="images/keficomobile.jpg?raw=true"/>
 
 ---
-### 4. Namyang Nexmo’s MES System Development Project in Poland :poland:
+### 4. Namyang Nexmo’s MES System Development Project in Poland <img src="images/pl.png?raw=true"/>
 **Period:** Sept. 2016 – Mar. 2017
 
 **Amount:** 800 million won
@@ -55,7 +55,7 @@
 <img src="images/NYPDA.png?raw=true"/>
 
 ---
-### 5. BMI’s New Vehicle Model Tracking Management System Project :kr:
+### 5. BMI’s New Vehicle Model Tracking Management System Project <img src="images/kr.png?raw=true"/>
 **Period:** Aug. 2016
 
 **Amount:** 100 million won
@@ -66,7 +66,7 @@
 *	Spearheaded the development of the Zebra barcode system.
 
 ---
-### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China :kr: :cn:
+### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China <img src="images/kr.png?raw=true"/> <img src="images/cn.png?raw=true"/>
 **Period:** Jul. 2016
 
 **Amount:** 100 million won
@@ -76,7 +76,7 @@
 *	Headed barcode system development, PDA development, and others. 
 
 ---
-### 7. Namyang Nexmo’s MES System Development Project in Korea :kr:
+### 7. Namyang Nexmo’s MES System Development Project in Korea <img src="images/kr.png?raw=true"/>
 **Period:** Aug. 2015 – Mar. 2016
 
 **Amount:** 900 million won
@@ -88,7 +88,7 @@
 <img src="images/NYppt.png?raw=true"/>
 
 ---
-### 8. Hyundai Powertech’s All Plants CPMS Improvement Project :kr:
+### 8. Hyundai Powertech’s All Plants CPMS Improvement Project <img src="images/kr.png?raw=true"/>
 **Period:** Dec. 2014 – Apr. 2015
 
 **Amount:** 500 million won
@@ -99,7 +99,7 @@
 *	Served as a main program developer designing and developing the program's entire frame and conversion of Oracle databases to MSSQL. 
 
 ---
-### 9. Pulmuone’s Raw Noodle Plant POP Development Project :kr:
+### 9. Pulmuone’s Raw Noodle Plant POP Development Project <img src="images/kr.png?raw=true"/>
 **Period:** Sept. 2014 – Nov. 2014
 
 **Amount:** 100 million won
