@@ -26,7 +26,7 @@
 *	Instructed and provided technical advice to junior staff members and clients.
 
 ---
-### 3. Hyundai Kefico’s MES Advancement Project in Vietnam
+### 3. Hyundai Kefico’s MES Advancement Project in Vietnam :vietnam:
 **Period:** Apr. 2017 – Sept. 2017
 
 **Amount:** 200 million won
@@ -39,7 +39,7 @@
 <img src="images/keficomobile.jpg?raw=true"/>
 
 ---
-### 4. Namyang Nexmo’s MES System Development Project in Poland
+### 4. Namyang Nexmo’s MES System Development Project in Poland :poland:
 **Period:** Sept. 2016 – Mar. 2017
 
 **Amount:** 800 million won
@@ -65,7 +65,7 @@
 *	Spearheaded the development of the Zebra barcode system.
 
 ---
-### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China :kr:
+### 6. Hyundai Powertech’s Export-oriented Packing Yard Barcode System Project in Korea and China :kr: :cn:
 **Period:** Jul. 2016
 
 **Amount:** 100 million won
