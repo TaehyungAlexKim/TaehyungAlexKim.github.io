@@ -2,32 +2,32 @@
 
 ## 1. Vanilla JavaScript DVD online store
 
-![https://taehyungalexkim.github.io/Portfolio/DVD/ss.png](https://taehyungalexkim.github.io/Portfolio/DVD/ss.png)
+![/Portfolio/DVD/ss.png](/Portfolio/DVD/ss.png)
 
-### [Demo](https://taehyungalexkim.github.io/Portfolio/DVD/) / [Code](https://taehyungalexkim.github.io/Portfolio/DVD/Taehyung_Final%20Project.zip)
+### [Demo](/Portfolio/DVD/) / [Code](/DVD/Taehyung_Final%20Project.zip)
 
 ## 2. Using public API and object - Astronomy Picture of the Day
 
-![https://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png](https://taehyungalexkim.github.io/Portfolio/APIandOOP/ss.png)
+![/Portfolio/APIandOOP/ss.png](/Portfolio/APIandOOP/ss.png)
 
-### [Demo](https://taehyungalexkim.github.io/Portfolio/APIandOOP/) / [Code](https://taehyungalexkim.github.io/Portfolio/APIandOOP/Taehyung_S20_Project_01.zip)
+### [Demo](/Portfolio/APIandOOP/) / [Code](/Portfolio/APIandOOP/Taehyung_S20_Project_01.zip)
 
 ## 3. Using Class and object
 
-![https://taehyungalexkim.github.io/Portfolio/Devicetree/ss.png](https://taehyungalexkim.github.io/Portfolio/Devicetree/ss.png)
+![/Portfolio/Devicetree/ss.png](/Portfolio/Devicetree/ss.png)
 
-### [Instruction](https://taehyungalexkim.github.io/Portfolio/Devicetree/Project2_Device_Tree_Summer_2020.pdf) / [Demo](https://taehyungalexkim.github.io/Portfolio/Devicetree/Taehyung_Project2.html) / [Code](https://taehyungalexkim.github.io/Portfolio/Devicetree/Project02.zip)
+### [Instruction](/Portfolio/Devicetree/Project2_Device_Tree_Summer_2020.pdf) / [Demo](/Portfolio/Devicetree/Taehyung_Project2.html) / [Code](/Portfolio/Devicetree/Project02.zip)
 
 ## 4. Excel sheet - 2D array, iterator
-![https://taehyungalexkim.github.io/Portfolio/Excel/ss.png](https://taehyungalexkim.github.io/Portfolio/Excel/ss.png)
+![/Portfolio/Excel/ss.png](/Portfolio/Excel/ss.png)
 
-### [Instruction](https://taehyungalexkim.github.io/Portfolio/Excel/INFO3144 Spreadsheet Project_2020.pdf) / [Demo](https://taehyungalexkim.github.io/Portfolio/Excel/) / [Code](https://taehyungalexkim.github.io/Portfolio/Excel/Taehyung_Project1.zip) / [Movie](https://taehyungalexkim.github.io/Portfolio/Excel/damonstration of js3 project1.mp4)
+### [Instruction](/Portfolio/Excel/INFO3144 Spreadsheet Project_2020.pdf) / [Demo](/Portfolio/Excel/) / [Code](/Portfolio/Excel/Taehyung_Project1.zip) / [Movie](/Portfolio/Excel/damonstration of js3 project1.mp4)
 
 
 ## 5. Node.js - Database, Post
-![https://taehyungalexkim.github.io/Portfolio/Node/ss.png](https://taehyungalexkim.github.io/Portfolio/Node/ss.png)
+![/Portfolio/Node/ss.png](/Portfolio/Node/ss.png)
 
-### [Instruction](https://taehyungalexkim.github.io/Portfolio/Node/INFO3144_Customers Form_2020.pdf) / Demo / [Code](https://taehyungalexkim.github.io/Portfolio/Node/Taehyung_Project2.zip)
+### [Instruction](/Node/INFO3144_Customers Form_2020.pdf) / Demo / [Code](/Portfolio/Node/Taehyung_Project2.zip)
 
 <!--
 **Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
