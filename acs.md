@@ -1,5 +1,4 @@
-# MES
-## Manufacturing Execution System Project
+# MES<br>Manufacturing Execution System Project
 ### 1. Amore Pacific’s WMS System Development Project
 **Period:** Jan. 2018 – Sept. 2018
 
