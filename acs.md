@@ -14,6 +14,18 @@
 * Instructed and provided technical advice to junior staff members and clients. 
 
 ---
+### 2. Kyung Dong Navien’s Smart Factory Project
+**Period:** Sept. 2017 – Dec. 2017
+
+**Amount:** 100 million won
+
+**Project Tasks:** 
+
+*	Developed additional system to existing MES for forecasting of a potential breakdown of mechanical facilities. 
+*	Managed key functions as a project manager, including designing software logic
+*	Instructed and provided technical advice to junior staff members and clients.
+
+---
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
