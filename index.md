@@ -16,6 +16,6 @@
 
 ---
 [PHP](/php)
-[![/Portfolio/lampproject/ss.png](/Portfolio/lampproject/ss.png)](/php)
+[![/Portfolio/rental/ss.png](/Portfolio/rental/ss.png)](/php)
 
 ---
