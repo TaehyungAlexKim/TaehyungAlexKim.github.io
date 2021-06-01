@@ -16,6 +16,8 @@
 
 ## 3. Rental Buddy: for Landlord and Tenant
 
+**Project description:** All configurations of **Travis CI, AWS S3, and CodeDeploy** were built exclusively by me for AWS-based software deployment automation.
+
 ![/Portfolio/rental/ss.png](/Portfolio/rental/ss.png)
 
 ### [Demo](https://rental.fanshawe21w.tk/) / [Github](https://github.com/TaehyungAlexKim/Application-Project-Rental-Buddy)
