@@ -9,7 +9,7 @@
 
 ---
 [Business Website](/web)
-[![/Portfolio/rental/ss.png](/Portfolio/rental/ss.png)](/php)
+[![/images/sushiwowmain.gif](/images/sushiwowmain.gif)](/web)
 
 ---
 
